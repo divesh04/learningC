@@ -1,1 +1,2 @@
-# All the hws from C for Everyone course on Coursera
+# C for Everyone 
+This repository has all the hws from the course 
