@@ -19,4 +19,10 @@ cat ckey.pub % copy the jey from this command
 % paste it on github wbsite -> settings -> GPG and Keys
 ssh-add -K ckey % ckey is the name of the key
 
-git push origin master
+%not required % git commit -m "empty commit" --allow-empty
+git push
+
+% make new folder as git repository
+git init 
+%after making a folder by same name on github.vom
+git remote add origin git@github......
